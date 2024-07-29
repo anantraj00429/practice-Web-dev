@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signUp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="#"><img src="logo.png" alt="Company Logo" /> </a>
+      </header>
+
+      <main>
+        <h1>Sign Up</h1>
+        <form id="signup-form" action="index.html">
+          <div class="form-group">
+            <label for="username">User Name</label>
+            <input
+              type="username"
+              id="user"
+              name="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email or phone number</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email or phone number "
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <button type="submit">Register</button>
+        </form>
+        <p class="small">
+          By continuing, you agree to our <a href="#">Conditions of Use</a> and
+          <a href="#">Privacy Notice.</a>
+        </p>
+        <a href="#">Need help?</a>
+      </main>
+    </div>
+    <footer>
+      <div class="banner">
+        <p class="banner-text"><a href="#">Conditions of Use</a></p>
+        <p class="banner-text"><a href="#">Privacy Notice</a></p>
+        <p class="banner-text"><a href="#">Help</a></p>
+        <p>© 1996-2024, Ecomerce.com, Inc. or its affiliates</p>
+      </div>
+    </footer>
+    <script src="/signUp.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
