@@ -1,0 +1,293 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  position: relative;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.page1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.page4 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.page5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.page6 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.page7 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.page8 {
+  height: 100vh;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+canvas {
+  position: relative;
+  z-index: 9;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.move {
+  position: absolute;
+  top: 25%;
+  height: 25%;
+  width: 240%;
+  font-size: 100px;
+  white-space: nowrap;
+  font-family: gilroy;
+}
+
+.move > h1 {
+  font-weight: 400;
+  animation-name: anim;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.move > h1 > span {
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translatex(-100%);
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 7%;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  padding: 0px 30px;
+}
+.nav > h3 {
+  font-family: gilroy;
+  font-weight: 400;
+  font-size: 22px;
+}
+.nav > button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  position: relative;
+  right: 4%;
+}
+.page1 > h3 {
+  position: absolute;
+  top: 61%;
+  font-family: gilroy;
+  font-weight: 400;
+  color: #7c7c7c;
+  left: 3%;
+  font-size: 16px;
+}
+.page1 > h4 {
+  position: absolute;
+  top: 65%;
+  right: 12%;
+  font-family: gilroy;
+  font-weight: 500;
+}
+.page2 > #right-text {
+  position: absolute;
+  left: 10%;
+}
+.page2 > #right-text > h3 {
+  font-weight: 400;
+  color: #7c7c7c;
+}
+.page2 > #right-text > h1 {
+  line-height: 1.5;
+  font-size: 50px;
+}
+.page2 > #left-text {
+  position: absolute;
+  right: 10%;
+  text-align: end;
+}
+.page2 > #left-text > h1 {
+  font-size: 50px;
+  line-height: 1.5;
+}
+.page2 > #left-text > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+.page3 > #text1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.page3 > #text1 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+.page3 > #text1 > h1 {
+  font-size: 60px;
+  line-height: 1.5;
+}
+.page3 > #text2 {
+  position: absolute;
+  top: 30%;
+  right: 4%;
+}
+.page3 > #text2 > p {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+.page4 > #left-text4 {
+  position: absolute;
+  left: 8%;
+}
+
+#left-text4 > h1 {
+  font-size: 70px;
+}
+
+#left-text4 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.page4 > #text3 {
+  position: absolute;
+  top: 40%;
+  right: 8%;
+  text-align: end;
+}
+.page4 > #text3 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+}
+.page4 > #text3 > h1 {
+  font-size: 70px;
+}
+
+.right-text5 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+  right: 20%;
+  position: absolute;
+  top: 53.5%;
+  font-size: 22px;
+}
+
+.right-text5 > h1 {
+  position: absolute;
+  right: 2%;
+  top: 54%;
+  font-size: 46px;
+}
+
+.left-text5 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+  position: absolute;
+  top: 53.5%;
+  font-size: 22px;
+  left: 8%;
+}
+
+.left-text5 > h1 {
+  position: absolute;
+  left: 8%;
+  top: 54%;
+  font-size: 70px;
+}
+
+.left-text6 > h3 {
+  color: #7c7c7c;
+  font-weight: 400;
+  position: absolute;
+  top: 68.5%;
+  font-size: 22px;
+  left: 8%;
+}
+
+.left-text6 > h1 {
+  position: absolute;
+  left: 8%;
+  top: 69%;
+  font-size: 70px;
+}
+
+.right-text6 {
+  position: absolute;
+  top: 70%;
+  right: 2%;
+  color: #7c7c7c;
+  font-weight: 400;
+}
+
+.page8 {
+  background-color: #000;
+}
+
+.page8 > h1 {
+  color: white;
+  font-size: 140px;
+  position: relative;
+  left: 3%;
+  top: 15%;
+  text-align: center;
+  letter-spacing: 0.5em;
+  -webkit-text-stroke: 1.2px #0ba8f1;
+}
+
+.page8 > h1 > span {
+  -webkit-text-stroke: 1.2px #bd3b3b;
+  color: transparent;
+}
