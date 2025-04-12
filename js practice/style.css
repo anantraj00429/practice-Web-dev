@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+.container {
+  margin-top: 3rem;
+}
+
+.boxs {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 2rem;
+  background-color: aqua;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+.red {
+  background-color: rgba(194, 15, 15, 0.873);
+}
+
+.aqua {
+  background-color: rgb(42, 237, 237);
+}
+
+.orange {
+  background-color: rgba(212, 93, 14, 0.895);
+}
+
+.pink {
+  background-color: rgba(219, 43, 140, 0.873);
+}
+
+.flash {
+  background-color: #ffffff;
+}
+
+.flash1 {
+  background-color: #070707;
+}

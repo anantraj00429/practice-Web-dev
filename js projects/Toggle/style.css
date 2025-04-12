@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(23, 22, 22, 0.814);
+}
+
+.rectangle {
+  height: 11rem;
+  width: 12rem;
+  background-color: black;
+  border-radius: 1rem;
+  transition: all 0.6s linear;
+  box-shadow: rgba(239, 247, 87, 0.2) 0px 8px 24px;
+}
+
+.button {
+  margin-top: 11px;
+  padding: 22px;
+  margin-left: 15px;
+}
+
+#toggleBtn {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.addTransition3 {
+  border-radius: 50%;
+  background-color: #f5ee63;
+  translate: 30rem 0;
+}
+
+.addTransition4 {
+  border-radius: 50%;
+  background-color: #f5ee63;
+  translate: 0rem;
+}
+
+.addTransition5 {
+  border-radius: 50%;
+  background-color: #f5ee63;
+  translate: -30rem 0;
+}
+
+.addTransition6 {
+  border-radius: 0%;
+  translate: 0rem 0;
+}

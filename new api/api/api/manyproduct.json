@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "categorys": "Laptop ",
+    "name": "Gaming Laptop",
+
+    "image": "../images/tablet.jpg",
+    "about": " min 40% off"
+  },
+
+  {
+    "id": 2,
+    "categorys": "Smartphone",
+    "name": "Smartphone 5G",
+
+    "image": "../images/iphone1.jpeg",
+    "about": "min 10% off "
+  },
+
+  {
+    "id": 3,
+    "categorys": "Headphone ",
+    "name": "Wireless Headphones",
+
+    "image": "../images/vivo-v29.webp",
+    "about": " "
+  },
+
+  {
+    "id": 4,
+    "categorys": "Watch ",
+    "name": "Smart Watches",
+
+    "image": "../images/speakers1.jpeg",
+    "about": " "
+  },
+
+  {
+    "id": 5,
+    "categorys": "Speakers ",
+    "name": "Double Speakers",
+
+    "image": "../images/images.jpeg",
+    "about": " "
+  }
+]

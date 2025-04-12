@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 23rem;
+  margin-top: 8rem;
+  font-size: 4rem;
+}
+
+.middle {
+  margin-left: 30rem;
+  font-size: 60px;
+}
+
+.middle > button {
+  padding: 10px;
+  font-size: 15px;
+  margin-top: 1px;
+}
+
+#search {
+  font-size: 30px;
+}

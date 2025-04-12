@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #8fbc8f,
+    #087456,
+    #00bf72,
+    #a8eb12
+  );
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.contain {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 25%;
+  left: 35%;
+}
+
+.contain > h2 {
+  left: 3%;
+  position: relative;
+  font-size: 30px;
+  top: -5%;
+}
+
+.contain > button {
+  padding: 11px 50px;
+  border-radius: 30px;
+}
+#mybutton {
+  background-color: #4caf50;
+}
+
+#mybutton2 {
+  background-color: #10d1c1;
+  margin: 57px;
+}
+
+.copyDiv {
+  height: 52px;
+  width: 379px;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  font-size: 20px;
+}

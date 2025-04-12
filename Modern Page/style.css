@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+}
+
+.back {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.working {
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top {
+  pointer-events: none;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+.back img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.nav {
+  pointer-events: all;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  height: 70px;
+  padding: 30px 0px;
+}
+
+.n-left,
+.n-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.n-left > a,
+.n-right > a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 46%;
+  left: 0;
+  transform: translate(0%, -50%);
+  height: 50vh;
+}
+
+.left {
+  min-width: 50%;
+}
+
+.elem1 {
+  position: relative;
+
+  overflow: hidden;
+  height: 9vw;
+}
+
+.elem1 h1:nth-child(1) {
+  top: 0;
+}
+
+.elem1 > h1 {
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  color: #fff;
+  font-weight: 200;
+  line-height: 0.9;
+  font-size: 11vw;
+  text-transform: uppercase;
+  font-family: "kajiro";
+}
+
+.left button {
+  pointer-events: all;
+  padding: 0.5vw 1.3vw;
+  font-size: 3vw;
+  margin-top: 2vw;
+  font-family: "kajiro";
+}
+
+.right {
+  width: 30%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 290px;
+}
+
+.box {         
+  height: 175px;
+  width: 200px;
+  background-color: #fff;
+  object-fit: cover;
+  margin-top: 28px;
+  margin-right: 80px;
+}
+
+.box img {
+  height: 175px;
+  width: 201px;
+  background-color: #fff;
+}
+
+.right p {
+  margin-top: 50px;
+  font-size: 17px;
+  font-weight: 600;
+}
